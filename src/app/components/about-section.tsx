@@ -13,20 +13,21 @@ export default function AboutSection() {
           <div className="lg:col-span-2">
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                Hi there! I'm Alex, and I love helping small businesses create their perfect online home. After working
-                with dozens of local businesses, I've learned that the best websites are simple, beautiful, and actually
-                help you connect with your customers.
+                Hi there! I'm Nathan — a recent Computer & Information Science graduate who loves building simple, effective websites 
+                that actually make life easier for small business owners. I know how overwhelming tech can feel, so my goal is always 
+                to keep things clear, friendly, and stress-free.
               </p>
 
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                I believe every business deserves a website they're proud of – one that reflects their personality and
-                makes it easy for customers to find and choose them. That's why I focus on creating clean, user-friendly
-                websites without all the unnecessary complexity.
+                My approach is all about clean design and straightforward functionality. Whether it’s helping a local shop put their 
+                first site online or refreshing an existing business page, I focus on creating something that feels professional 
+                without unnecessary complexity.
               </p>
 
               <p className="text-lg text-muted-foreground leading-relaxed">
-                When I'm not building websites, you'll find me exploring local coffee shops, hiking with my dog, or
-                learning about the latest web technologies to better serve my clients.
+                When I’m not coding, you’ll usually find me outdoors — hiking, camping, or exploring nature. That same curiosity 
+                and love for exploration shows up in my work: I’m always learning, improving, and looking for new ways to help 
+                businesses connect with their customers.
               </p>
             </div>
 

@@ -19,7 +19,7 @@ export default function HeroSection() {
         </h1>
 
         <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-          Hi! I'm Alex, a freelance web developer who creates clean, user-friendly websites that help your business
+          Hi! I'm Nathan, a freelance web developer who creates clean, user-friendly websites that help your business
           shine online. No complicated jargon, just results.
         </p>
 

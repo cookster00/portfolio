@@ -8,7 +8,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/
 import { Input } from "./ui/input"
 import { Label } from "./ui/label"
 import { Textarea } from "./ui/textarea"
-import { Mail, Phone, MapPin, Send } from "lucide-react"
+import { Mail, MapPin, Send } from "lucide-react"
 
 export default function ContactSection() {
   const [formData, setFormData] = useState({
@@ -38,8 +38,7 @@ export default function ContactSection() {
         <div className="text-center mb-12">
           <h2 className="font-heading font-bold text-3xl sm:text-4xl text-foreground mb-4">Let's Start Your Project</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Ready to get your business online? I'd love to hear about your project and discuss how I can help you
-            succeed.
+            Ready to get your business online? Send me a message below or reach out via email or your favorite platform.
           </p>
         </div>
 
@@ -115,22 +114,22 @@ export default function ContactSection() {
                   <Mail className="h-5 w-5 text-primary" />
                   <div>
                     <h3 className="font-heading font-semibold">Email</h3>
-                    <p className="text-sm text-muted-foreground">alex@example.com</p>
-                  </div>
-                </div>
-                <div className="flex items-center space-x-3 mb-4">
-                  <Phone className="h-5 w-5 text-primary" />
-                  <div>
-                    <h3 className="font-heading font-semibold">Phone</h3>
-                    <p className="text-sm text-muted-foreground">(555) 123-4567</p>
+                    <p className="text-sm text-muted-foreground">n23c23@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-3">
                   <MapPin className="h-5 w-5 text-primary" />
                   <div>
                     <h3 className="font-heading font-semibold">Location</h3>
-                    <p className="text-sm text-muted-foreground">Portland, OR</p>
+                    <p className="text-sm text-muted-foreground">Oceanside, CA</p>
                   </div>
+                </div>
+                <div className="mt-4">
+                  <h3 className="font-heading font-semibold">Other Platforms</h3>
+                  <p className="text-sm text-muted-foreground">
+                    You can also reach me on LinkedIn, Twitter, or other platforms listed below.
+                  </p>
+                  {/* TODO: Add platform icons/links here */}
                 </div>
               </CardContent>
             </Card>
@@ -139,16 +138,16 @@ export default function ContactSection() {
               <CardContent className="p-6">
                 <h3 className="font-heading font-semibold text-lg mb-3">Quick Response</h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                  I typically respond to new inquiries within 24 hours. For urgent projects, feel free to call!
+                  I typically respond to new messages within 24 hours. Please use email or this form for the fastest reply.
                 </p>
                 <div className="bg-primary/10 p-3 rounded-lg">
-                  <p className="text-sm text-primary font-medium">💡 Free consultation calls available</p>
+                  <p className="text-sm text-primary font-medium">💡 Reach out anytime—I'll get back to you as soon as I can!</p>
                 </div>
               </CardContent>
             </Card>
 
             <div className="bg-card p-4 rounded-lg border border-border">
-              <p className="text-sm text-muted-foreground">📝 TODO: Update contact information with real details</p>
+              <p className="text-sm text-muted-foreground">📝 TODO: Update contact information and add platform links</p>
             </div>
           </div>
         </div>

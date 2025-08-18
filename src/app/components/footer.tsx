@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-center md:text-left">
-            <h3 className="font-heading font-bold text-xl text-primary mb-2">Alex Johnson</h3>
+            <h3 className="font-heading font-bold text-xl text-primary mb-2">Nathan Cook</h3>
             <p className="text-sm text-muted-foreground">
               Freelance Web Developer • Simple Websites for Small Businesses
             </p>
@@ -18,7 +18,7 @@ export default function Footer() {
               <Heart className="h-4 w-4 text-red-500 fill-current" />
               <span>for small businesses</span>
             </div>
-            <p className="text-xs text-muted-foreground">© 2024 Alex Johnson. All rights reserved.</p>
+            <p className="text-xs text-muted-foreground">© 2025 Nathan Cook. All rights reserved.</p>
           </div>
         </div>
 

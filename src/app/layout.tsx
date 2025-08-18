@@ -2,7 +2,7 @@ import "./globals.css"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Simple Websites — Alex Johnson",
+  title: "Simple Websites — Nathan Cook",
   description: "Clean, mobile-friendly webpages for small businesses.",
 }
 
