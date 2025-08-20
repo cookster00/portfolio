@@ -30,12 +30,6 @@ export default function AboutSection() {
                 businesses connect with their customers.
               </p>
             </div>
-
-            <div className="mt-8 bg-card p-4 rounded-lg border border-border">
-              <p className="text-sm text-muted-foreground">
-                📝 TODO: Add personal photo and update bio with real information
-              </p>
-            </div>
           </div>
 
           <div className="space-y-4">

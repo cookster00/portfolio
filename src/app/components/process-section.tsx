@@ -57,14 +57,6 @@ export default function ProcessSection() {
             </Card>
           ))}
         </div>
-
-        <div className="mt-8 text-center">
-          <div className="bg-card p-4 rounded-lg border border-border">
-            <p className="text-sm text-muted-foreground">
-              📝 TODO: Add timeline information and typical project duration
-            </p>
-          </div>
-        </div>
       </div>
     </section>
   )
