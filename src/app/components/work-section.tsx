@@ -66,7 +66,7 @@ export default function ProjectsSection() {
 				{/* Caption */}
 				<div className="mt-8 text-center">
 					<p className="text-sm text-muted-foreground">
-						📝 More projects and live demos coming soon. Let me know if you'd like
+						📝 More projects and live demos coming soon. Let me know if you&apos;d like
 						to see something specific!
 					</p>
 				</div>
