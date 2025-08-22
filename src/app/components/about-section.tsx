@@ -13,7 +13,7 @@ export default function AboutSection() {
           <div className="lg:col-span-2">
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                Hi there! I&apos;m Nathan &mdash; a recent Computer & Information Science graduate who loves building simple, effective websites
+                Hi there! I&apos;m Nathan &mdash; a recent Computer &amp; Information Science graduate who loves building simple, effective websites
                 that actually make life easier for small business owners. I know how overwhelming tech can feel, so my goal is always
                 to keep things clear, friendly, and stress-free.
               </p>

@@ -38,7 +38,7 @@ export default function ProcessSection() {
 			<div className="max-w-6xl mx-auto">
 				<div className="text-center mb-12">
 					<h2 className="font-heading font-bold text-3xl sm:text-4xl text-foreground mb-4">
-						How We'll Work Together
+						How We&apos;ll Work Together
 					</h2>
 					<p className="text-lg text-muted-foreground max-w-2xl mx-auto">
 						Getting your website built doesn&apos;t have to be complicated.

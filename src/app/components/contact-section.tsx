@@ -12,7 +12,7 @@ function ContactSideCard() {
   return (
     <Card className="sticky top-6">
       <CardHeader>
-        <CardTitle>Contact & Info</CardTitle>
+        <CardTitle>Contact &amp; Info</CardTitle>
         <CardDescription>Prefer email or LinkedIn? I&apos;ll get back to you soon.</CardDescription>
       </CardHeader>
       <CardContent className="space-y-6">
@@ -64,9 +64,9 @@ function ContactSideCard() {
         <div className="space-y-2">
           <p className="text-sm font-medium">What I can help with:</p>
           <ul className="text-sm text-muted-foreground list-disc list-inside space-y-1">
-            <li>Simple websites (one-pager or small multi-page)</li>
-            <li>Mobile-friendly redesigns</li>
-            <li>Small automations & reports</li>
+            <li>Simple websites (one&ndash;pager or small multi&ndash;page)</li>
+            <li>Mobile&ndash;friendly redesigns</li>
+            <li>Small automations &amp; reports</li>
           </ul>
         </div>
       </CardContent>
