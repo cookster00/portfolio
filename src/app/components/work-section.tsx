@@ -34,7 +34,7 @@ export default function ProjectsSection() {
 						Recent Projects
 					</h2>
 					<p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-						Here are some of the projects I’ve worked on, showcasing my skills in
+						Here are some of the projects I&apos;ve worked on, showcasing my skills in
 						building modern, user-friendly applications and websites.
 					</p>
 				</div>

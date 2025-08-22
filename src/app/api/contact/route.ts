@@ -68,10 +68,10 @@ export async function POST(req: NextRequest) {
     console.log("✅ Resend response:", response);
 
     return NextResponse.json({ ok: true });
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error("🔥 Unexpected error in /api/contact:", error);
     return NextResponse.json(
-      { ok: false, error: error.message || "Something went wrong." },
+      { ok: false, error: error instanceof Error ? error.message : "Something went wrong." },
       { status: 500 }
     );
   }

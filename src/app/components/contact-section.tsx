@@ -6,14 +6,14 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/
 import { Input } from "./ui/input";
 import { Label } from "./ui/label";
 import { Textarea } from "./ui/textarea";
-import { Mail, Linkedin, Clock, ShieldCheck, Sparkles, Send } from "lucide-react";
+import { Mail, Linkedin, Clock, ShieldCheck, Send } from "lucide-react";
 
 function ContactSideCard() {
   return (
     <Card className="sticky top-6">
       <CardHeader>
         <CardTitle>Contact & Info</CardTitle>
-        <CardDescription>Prefer email or LinkedIn? I’ll get back to you soon.</CardDescription>
+        <CardDescription>Prefer email or LinkedIn? I&apos;ll get back to you soon.</CardDescription>
       </CardHeader>
       <CardContent className="space-y-6">
         {/* Primary Actions */}
@@ -52,7 +52,7 @@ function ContactSideCard() {
         <div className="space-y-2">
           <div className="flex items-center space-x-2 text-sm">
             <Clock className="h-4 w-4 text-muted-foreground" aria-hidden="true" />
-            <span>Typical reply: 24–48 hours</span>
+            <span>Typical reply: 24&ndash;48 hours</span>
           </div>
           <div className="flex items-center space-x-2 text-sm">
             <ShieldCheck className="h-4 w-4 text-muted-foreground" aria-hidden="true" />
@@ -69,7 +69,6 @@ function ContactSideCard() {
             <li>Small automations & reports</li>
           </ul>
         </div>
-
       </CardContent>
     </Card>
   );
@@ -104,7 +103,7 @@ export default function ContactSection() {
     <section id="contact" className="py-16 px-4 sm:px-6 lg:px-8 bg-muted/30">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="font-heading font-bold text-3xl sm:text-4xl text-foreground mb-4">Let's Start Your Project</h2>
+          <h2 className="font-heading font-bold text-3xl sm:text-4xl text-foreground mb-4">Let&apos;s Start Your Project</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Ready to get your business online? Send me a message below or reach out via email or your favorite platform.
           </p>
@@ -117,7 +116,7 @@ export default function ContactSection() {
               <CardHeader>
                 <CardTitle className="font-heading font-semibold text-2xl">Send Me a Message</CardTitle>
                 <CardDescription>
-                  Tell me about your business and what kind of website you're looking for.
+                  Tell me about your business and what kind of website you&apos;re looking for.
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -165,7 +164,7 @@ export default function ContactSection() {
 
                   <div className="mt-4 text-center" aria-live="polite">
                     {status === "success" && (
-                      <p className="text-green-600">Thanks! I’ll reply soon.</p>
+                      <p className="text-green-600">Thanks! I&apos;ll reply soon.</p>
                     )}
                   </div>
                 </form>
